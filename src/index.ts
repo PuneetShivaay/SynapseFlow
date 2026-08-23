@@ -14,6 +14,8 @@ export * from './types/tracing.js';
 
 // Core functionality
 export { EventEmitter, createScopedEmitter } from './core/events.js';
+export { Agent } from './core/agent.js';
+export { ContextBuilder } from './core/context-builder.js';
 export * from './core/utils.js';
 
 // Providers
