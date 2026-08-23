@@ -17,6 +17,12 @@ export { EventEmitter, createScopedEmitter } from './core/events.js';
 export { Agent } from './core/agent.js';
 export { ContextBuilder } from './core/context-builder.js';
 export * from './core/utils.js';
+export { HandoffManager, createHandoffAgent } from './core/handoff.js';
+export type { HandoffRequest, HandoffResult } from './core/handoff.js';
+export { GuardrailManager, GuardrailRules } from './core/guardrails.js';
+export type { GuardrailRule, GuardrailResult, GuardrailType } from './core/guardrails.js';
+export { StructuredOutputGenerator, createStructuredOutput, CommonSchemas } from './core/structured-output.js';
+export type { StructuredOutputOptions, StructuredOutputResult } from './core/structured-output.js';
 
 // Providers
 export { BaseProvider } from './providers/base.js';
