@@ -42,10 +42,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/synapseflow.git"
+    "url": "https://github.com/PuneetShivaay/SynapseFlow.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/synapseflow/issues"
+    "url": "https://github.com/PuneetShivaay/SynapseFlow/issues"
   },
   "homepage": "https://synapseflow.dev",
   "engines": {

@@ -96,8 +96,8 @@ SynapseFlow is under active development. The foundation is solid with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/synapseflow.git
-cd synapseflow
+git clone https://github.com/PuneetShivaay/SynapseFlow.git
+cd SynapseFlow
 
 # Install dependencies
 npm install
