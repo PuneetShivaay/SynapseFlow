@@ -16,5 +16,13 @@ export * from './types/tracing.js';
 export { EventEmitter, createScopedEmitter } from './core/events.js';
 export * from './core/utils.js';
 
+// Providers
+export { BaseProvider } from './providers/base.js';
+export { OpenAIProvider } from './providers/openai.js';
+
+// Tools
+export { ToolRegistry } from './tools/registry.js';
+export { ToolExecutor } from './tools/executor.js';
+
 // Version
 export const VERSION = '0.1.0';
