@@ -31,5 +31,8 @@ export { InMemoryStore } from './storage/memory-store.js';
 export { SQLiteGraphStore } from './storage/graph-store.js';
 export { ContextRetriever } from './storage/context-retrieval.js';
 
+// Background Processes
+export * from './processes/index.js';
+
 // Version
 export const VERSION = '0.1.0';

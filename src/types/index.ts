@@ -123,7 +123,11 @@ export type AgentEventType =
   | 'graph:write'
   | 'handoff:start'
   | 'handoff:complete'
-  | 'guardrail:triggered';
+  | 'guardrail:triggered'
+  | 'process:started'
+  | 'process:stopped'
+  | 'process:executed'
+  | 'process:error';
 
 /**
  * Base agent event
