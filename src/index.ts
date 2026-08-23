@@ -26,5 +26,10 @@ export { OpenAIProvider } from './providers/openai.js';
 export { ToolRegistry } from './tools/registry.js';
 export { ToolExecutor } from './tools/executor.js';
 
+// Storage
+export { InMemoryStore } from './storage/memory-store.js';
+export { SQLiteGraphStore } from './storage/graph-store.js';
+export { ContextRetriever } from './storage/context-retrieval.js';
+
 // Version
 export const VERSION = '0.1.0';
