@@ -1,4 +1,4 @@
-# SynapseFlow 🧠⚡
+# SynapseFlow: Build Your Own Agent SDK🧠⚡
 
 **A graph-first AI agent SDK with autonomous memory management and multi-agent orchestration**
 
